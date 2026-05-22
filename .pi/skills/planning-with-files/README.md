@@ -11,14 +11,22 @@ A [Pi Coding Agent](https://pi.dev) package that ships both:
 ### Pi Install
 
 ```bash
-pi install npm:pi-planning-with-files
+pi install npm:@tomxprime/planning-with-files
 ```
 
 ### Manual Install
 
-1. Navigate to your project root.
-2. Copy `.pi/skills/planning-with-files/` into your Pi skills directory.
-3. Reload Pi (`/reload`) if already running.
+```bash
+# From the planning-with-files repo root
+pi install ./.pi/skills/planning-with-files
+```
+
+Or add to `.pi/settings.json`:
+```json
+{
+  "packages": ["./path/to/planning-with-files/.pi/skills/planning-with-files"]
+}
+```
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "name": "pi-planning-with-files",
+  "name": "@tomxprime/planning-with-files",
   "version": "1.1.0",
   "description": "Manus-style file-based planning for Pi Coding Agent",
   "keywords": [
